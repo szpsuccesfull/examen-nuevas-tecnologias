@@ -48,7 +48,7 @@ if menu == "admi":
     for i in range(numAlumnos):
         name = input("Ingrese nombre: ")
         # program = input("Ingrese los programas que quiere para estudiar: ")
-        academicProgram = input(f"estos son los programas escogidos por {name},{menuCarreer}  - digite N -para avanzar ")
+        academicProgram = input(f"estos son los programas escogidos por {name} - {menuCarreer} - digite N -para avanzar ")
         if academicProgram == "n" or academicProgram == "N":
             menuCarreer = ["E", "e"]
             genero = ["m", "h", "nb","M", "H", "NB"]
